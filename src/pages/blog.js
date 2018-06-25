@@ -7,6 +7,7 @@ const BlogPage = ({data}) => (
         {data.allMarkdownRemark.edges.map(post=>(
             <div key={post.node.id}>
                 <h3>{post.node.frontmatter.title}</h3>
+                <p>{post.node.frontmatter.description}</p>
                 <small>Posted by {post.node.frontmatter.author} on {post.node.frontmatter.date}</small>
                 <br />
                 <br/>
@@ -30,6 +31,7 @@ export const pageQuery = graphql`
                         title
                         date
                         author
+                        description
                     }
                 }
             }
