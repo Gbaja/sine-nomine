@@ -1,33 +1,19 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import "./header.css";
+import Logo from "./logo-icon.svg"
+import Menu from "./menu";
+
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: '#333',
-      marginBottom: '0',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+  <div className="menu__container">
+      <header className="menu__header">
+        <h1 className="menu__header__title">
+          <Link to="/" className="menu__header__title__link"><img src={Logo} className="menu__header__logo"/></Link>
+        </h1>
+      </header>
+      <Menu />
     </div>
-  </div>
 )
 
 export default Header

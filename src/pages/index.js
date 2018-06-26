@@ -1,11 +1,10 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import "./pages.css"
 
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to Sine Nomine.</p>
-    <p>More info coming soon...</p>
+  <div className="home__container">
+    <h2 className="home__header">Sine Nomine</h2>
+    <p className="home__slogan">By a Learner, For Learners.</p>
   </div>
 )
 
