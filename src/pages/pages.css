@@ -5,3 +5,7 @@
     align-items: center;
     justify-content: center;
 }
+
+.about__container, .blogs__container{
+    margin-top: 2rem;
+}

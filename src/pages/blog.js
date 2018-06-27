@@ -1,12 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import "./pages.css"
 
 const BlogPage = ({data}) => (
-    <div>
-        <h1>Latests Posts</h1>
+    <div className="blogs__container">
+        <h2 className="blogs__title">Latests Posts</h2>
         {data.allMarkdownRemark.edges.map(post=>(
             <div key={post.node.id}>
-                <h3>{post.node.frontmatter.title}</h3>
+                <h4>{post.node.frontmatter.title}</h4>
                 <p>{post.node.frontmatter.description}</p>
                 <small>Posted by {post.node.frontmatter.author} on {post.node.frontmatter.date}</small>
                 <br />
