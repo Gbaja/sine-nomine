@@ -9,9 +9,15 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages'
-      }
+        name: 'pages',
+      },
     },
-    'gatsby-transformer-remark'
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Handlee`, `Great Vibes`],
+      },
+    },
+    'gatsby-transformer-remark',
   ],
 }

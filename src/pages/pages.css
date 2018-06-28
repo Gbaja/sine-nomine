@@ -1,9 +1,22 @@
+.sine-nomine{
+    font-family: 'Great Vibes';
+    font-size: 1.3rem;
+}
 .home__container{
     height: calc(100vh - 110px);
         display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+}
+.home__title{
+    font-family: 'Great Vibes';
+    font-size: 3.9rem;
+}
+.home__slogan{
+    font-family: 'Handlee';
+    font-size: 1.5rem;
 }
 
 .about__container, .blogs__container{
