@@ -9,14 +9,25 @@ const ContactPage = () => (
       method="POST"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
+      action="/thanks"
       className="contact__form"
     >
       <label className="contact__form__label"> Your Name:</label>
-      <input type="text" name="name" className="contact__form__input" required/>
+      <input
+        type="text"
+        name="name"
+        className="contact__form__input"
+        required
+      />
       <label className="contact__form__label"> Your Email:</label>
-      <input type="email" name="email" className="contact__form__input" required/>
+      <input
+        type="email"
+        name="email"
+        className="contact__form__input"
+        required
+      />
       <label className="contact__form__label">Message: </label>
-      <textarea name="message" className="contact__form__textarea" required/>
+      <textarea name="message" className="contact__form__textarea" required />
       <p>
         <button className="contact__form__button" type="submit">
           Send
