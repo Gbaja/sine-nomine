@@ -1,9 +1,10 @@
 import React from 'react'
 import './pages.css'
 
-const ContactPage = () => (
-  <div>
-    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+export default class Contact extends React.Component{
+  render(){
+  return (<div>
+    <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
       <p>
         <label>
           Your Name: <input type="text" name="name" />
@@ -25,5 +26,5 @@ const ContactPage = () => (
     </form>
   </div>
 )
-
-export default ContactPage
+  }
+}
