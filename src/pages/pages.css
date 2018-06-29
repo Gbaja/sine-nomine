@@ -19,10 +19,10 @@
     font-size: 1.5rem;
 }
 
-.about__container, .blogs__container, .contact__container{
+.about__container, .blogs__container, .contact__container,.thanks__container{
     margin-top: 2rem;
 }
-.contact__title, .about__title, .blogs__title{
+.contact__title, .about__title, .blogs__title, .thanks__title{
     font-family: 'Indie Flower';
     font-weight: bold;
     font-size: 2rem;
