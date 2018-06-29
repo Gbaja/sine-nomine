@@ -39,7 +39,7 @@ const AboutPage = () => (
       PS: I strongly recommend you get a notebook if you don't have one already.
     </p>
     <p className="about__text">
-      Contact:<a href="mailto:sine.nomine.blog@gmail.com">
+      Email: <a href="mailto:sine.nomine.blog@gmail.com">
         sine.nomine.blog@gmail.com
       </a>
     </p>

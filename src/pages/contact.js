@@ -2,25 +2,25 @@ import React from 'react'
 import './pages.css'
 
 const ContactPage = () => (
-  <div>
-    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+  <div className="contact__container">
+    <h2 className="contact__title"> Contact form </h2>
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+      className="contact__form"
+    >
+      <label className="contact__form__label"> Your Name:</label>
+      <input type="text" name="name" className="contact__form__input" required/>
+      <label className="contact__form__label"> Your Email:</label>
+      <input type="email" name="email" className="contact__form__input" required/>
+      <label className="contact__form__label">Message: </label>
+      <textarea name="message" className="contact__form__textarea" required/>
       <p>
-        <label>
-          Your Name: <input type="text" name="name" />
-        </label>
-      </p>
-      <p>
-        <label>
-          Your Email: <input type="email" name="email" />
-        </label>
-      </p>
-      <p>
-        <label>
-          Message: <textarea name="message" />
-        </label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
+        <button className="contact__form__button" type="submit">
+          Send
+        </button>
       </p>
     </form>
   </div>
