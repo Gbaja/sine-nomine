@@ -34,7 +34,7 @@
 .contact__form__label{
     display: block;
     margin: 1rem;
-    font-family: 'Handlee';
+    font-family: 'Work Sans';
        font-size: 1.5rem;
     
 }
@@ -43,7 +43,7 @@
     width: 290px;
     margin: 1rem auto;
     border: 1.5px solid grey;
-    font-family: 'Handlee';
+    font-family: 'Work Sans';
     font-size: 1.5rem;
 }
 .contact__form__textarea{
@@ -51,12 +51,11 @@
 }
 .contact__form__button{
     padding: 0.5rem 1rem;
-    background-color: white;
-    font-family: 'Handlee';
+    background-color: #ffffff;
+    font-family: 'Work Sans';
     border: 1.5px solid grey;
 }
 
 p{
-    font-family: 'Handlee';
-    font-size:  1.3rem
+    font-family: 'Work Sans';
 }

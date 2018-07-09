@@ -1,13 +1,14 @@
 import React from "react";
 import  Link  from "gatsby-link";
 
+import "./blog-post.css"
+
 export default function Template({data}){
     const post = data.markdownRemark;
 
     return(
-        <div>
-            <Link to="/blog">Go back</Link>
-            <hr/>
+        <div className="blog__container">
+            <Link to="/blog" className="blog__back-link">Go back</Link>
             <h1>{post.frontmatter.title}</h1>
             <h4>Posted by {post.frontmatter.author} on {post.frontmatter.data}</h4>
             <div dangerouslySetInnerHTML={{ __html: post.html}}/>

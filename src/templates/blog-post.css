@@ -1,0 +1,9 @@
+.blog__container{
+    margin-top: 2rem;
+}
+
+.blog__back-link{
+    text-decoration: underline;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}

@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Handlee`, `Great Vibes`, `Indie Flower`],
+        fonts: [`Handlee`, `Great Vibes`, `Indie Flower`, `Work Sans`],
       },
     },
     'gatsby-transformer-remark',
