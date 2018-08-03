@@ -1,6 +1,6 @@
-# My Blog Site
+# Sine-Nomine
 
-[Live version](https://sine-nomine.netlify.com/).
+Sine-Nomine is a blog site.View [Live version](https://sine-nomine.netlify.com/).
 
 ## Install
 
