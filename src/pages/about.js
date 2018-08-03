@@ -9,7 +9,7 @@ const AboutPage = () => (
     </p>
     <p>
       <span className="sine-nomine">Sine Nomine</span> is a blog site for code
-      newbies in web development.{' '}
+      newbies in web development and give some insights into the role.
     </p>
     <p>
       I will share with you some of the things I learn as I continue on my web

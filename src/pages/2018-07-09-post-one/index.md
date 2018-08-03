@@ -185,5 +185,3 @@ In line 14, I am declaring a new variable to be the new value of the returned va
 In line 21, I am comparing the values of the updatedState with that of the expected state.
 
 Thats it! Thats an example of reducer test.
-
-#### Testing the store
